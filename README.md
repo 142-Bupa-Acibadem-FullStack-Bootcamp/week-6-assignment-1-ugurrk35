@@ -50,7 +50,7 @@ Haritadaki bir anahtarın değerini ayarlar.mevcut Harita değerlerini değişti
 
 ###  Kodun açıklaması
 
-Dizi içerisindeki sayıları 9 dan çıkartıp çıkan farkı dizi içerinde arıyoruz.ilk for döngüsünde indexmap'in içindeki değer 2,0 set() metodu ile yazdırıyoruz.ikinci döngüde 
+Dizi içerisindeki sayıları 9 dan çıkartıp çıkan farkı dizi içerinde arıyoruz.ilk for döngüsünde indexmap'in içindeki değer 2,0, set() metodu ile yazdırıyoruz.ikinci döngüde 
  let fark = target - nums[i];  fark 2 çıkıyor. indexMap.has(fark) methodu ile mapta 2 varmı diye arıyor.Bulduğu zaman true döndürüp sonuc[1] = i; 7 'nin indeksini sonucun 1. indeksini yazıyoruz. sonuc[0] = indexMap.get(fark);  methodu ile farkın (2) map taki  values unu alıp sonucun 0'rıncı (sonuc[0] ) indeksine atıyoruz .
  sonuc [ 0, 1 ]
 
